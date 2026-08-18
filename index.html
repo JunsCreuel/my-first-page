@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>박준성 | 프로필</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="hero"></header>
+
+    <nav class="site-nav">
+      <a href="./store.html">상점</a>
+      <a href="#intro">자기소개</a>
+      <a href="#info">기본 정보</a>
+      <a href="#contact">문의하기</a>
+      <a href="./goal.html" class="nav-link">개발 목표 보기</a>
+    </nav>
+
+    <main>
+      <section id="intro">
+        <h2>자기소개</h2>
+        <article class="profile">
+          <div class="profile-header">
+            <img
+              src="./images/profile.jpg"
+              alt="프로필 이미지"
+              class="profile-image"
+            />
+            <p class="eyebrow">이름</p>
+            <p class="profile-name">박준성</p>
+            <p class="profile-role">부산 거주 · 24세</p>
+          </div>
+
+          <div class="profile-content">
+            <div class="profile-block">
+              <h3 class="block-label">간단한 소개</h3>
+              <p class="desc">
+                안녕하세요 부산에서 거주중인 24살 박준성이라고 합니다!
+                <br />
+                전역 후에 제가 생각하는 플랫폼을 MVP과정까지 만들어 창업하고싶어
+                수업을 듣게되었습니다!
+                <br />
+                미국에서 비행조종을 공부했었고, 중학생 때부터 AI 프로그래밍과
+                리눅스에 관심을 가져왔습니다.
+                <br />
+                경험이 많고 떠오르는 아이디어도 많아서, 앞으로는 웹 개발로 그
+                아이디어들을 직접 만들어 보고 실현시키는것이 저의 목표입니다.
+                <br />
+                잘부탁드립니다!
+              </p>
+            </div>
+
+            <div class="profile-block">
+              <h3 class="block-label">관심 분야</h3>
+              <ul class="tag-list">
+                <li>창업</li>
+                <li>프로그래밍</li>
+                <li>비행조종</li>
+              </ul>
+            </div>
+
+            <div class="profile-block">
+              <h3 class="block-label">취미 또는 좋아하는 것</h3>
+              <ul class="tag-list">
+                <li>게임 하기</li>
+                <li>드라이브 하기</li>
+                <li>낚시</li>
+              </ul>
+            </div>
+
+            <div class="profile-block">
+              <h3 class="block-label">앞으로 배우고 싶은 것</h3>
+              <ol>
+                <li>HTML, CSS 기초</li>
+                <li>JavaScript</li>
+                <li>반응형 웹 만들기</li>
+              </ol>
+            </div>
+
+            <div class="profile-block">
+              <h3 class="block-label">참고하고 싶은 웹사이트</h3>
+              <ul class="link-list">
+                <li>
+                  <a href="https://op.gg/ko" target="_blank" class="ref-link"
+                    >OP.GG</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.airbnb.co.kr/"
+                    target="_blank"
+                    class="ref-link"
+                    >Airbnb</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://pubgmap.io/ko/savage.html?/v2/30/4ftla8/BLeG"
+                    class="ref-link"
+                    target="_blank"
+                    >배틀그라운드 지도 사이트</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="info">
+        <h2>기본 정보</h2>
+        '
+        <div class="table-scroll">
+          <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+              <th>항목</th>
+              <th>내용</th>
+            </tr>
+            <tr>
+              <td>이름</td>
+              <td>박준성</td>
+            </tr>
+            <tr>
+              <td>거주지</td>
+              <td>부산</td>
+            </tr>
+            <tr>
+              <td>관심 분야</td>
+              <td>창업, 프로그래밍, 비행조종</td>
+            </tr>
+            <tr>
+              <td>목표</td>
+              <td>아이디어를 웹 개발로 직접 구현하여 창업하기</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>문의하기</h2>
+        <form>
+          <div>
+            <label for="name">이름</label>
+            <input id="name" type="text" placeholder="이름을 입력하세요." />
+          </div>
+
+          <div>
+            <label for="email">이메일</label>
+            <input id="email" type="email" placeholder="example@email.com" />
+          </div>
+
+          <div>
+            <label for="message">문의 내용</label>
+            <textarea
+              id="message"
+              rows="5"
+              cols="40"
+              placeholder="문의 내용을 입력하세요."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn">문의하기</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2026 박준성</p>
+    </footer>
+  </body>
+</html>
