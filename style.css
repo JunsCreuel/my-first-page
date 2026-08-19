@@ -71,7 +71,6 @@ header {
   opacity: 1;
 }
 
-/* 앵커 이동 시 sticky 메뉴에 제목이 가리지 않도록 여유 공간 확보 */
 section {
   scroll-margin-top: 64px;
 }
@@ -131,7 +130,6 @@ th {
   text-decoration: none;
 }
 
-/* 어두운 site-nav 안에서는 흰색 톤으로 덮어쓰기 */
 .site-nav .nav-link {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.12);
